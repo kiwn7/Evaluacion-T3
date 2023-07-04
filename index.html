@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.webp" alt="">
+        <div>
+            <h1>Elixir Fragancias</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="">Tienda</a></li>
+            <li><a href="">Abonar</a></li>
+            <li><a href="">Compras</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="">
+            <div>
+                <h3>Nombre</h3>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div>
+                <h3>Direccion</h3>
+                <input type="text" name="direccion" id="direccion">
+            </div>
+
+            <div>
+                <h3>Localidad</h3>
+                <select name="localidad" id="localidad">
+                    <option value="Virrey del pino">Virrey del pino</option>
+                    <option value="Gonzalez Catan">Gonzalez Catan</option>
+                    <option value="Laferrere">Laferrere</option>
+                    <option value="Isidro Casanova">Isidro Casanova</option>
+                </select>
+            </div>
+
+            <div class="Pedido">
+                <h3>Pedido</h3>
+                <label for="esencia">Esencias</label>
+                <select name="prod[]" id="esencia"></select>
+                <label for="cera">Cera</label>
+                <select name="prod[]" id="cera"></select>
+                <label for="base">Base de jabon</label>
+                <select name="prod[]" id="base"></select>
+                <label for="colorante">Colorante</label>
+                <select name="prod[]" id="colorante"></select>
+                <label for="molde">Moldes</label>
+                <select name="prod[]" id="molde"></select>
+            </div>
+
+            <div>
+                <h3>Codigo de descuento</h3>
+                <input type='text' name='codigo' id="codigo">
+            </div>
+
+            <div>
+                <input type="button" value="Calcular" id="calcular">
+            </div>
+
+        </form>
+
+        
+            
+
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
