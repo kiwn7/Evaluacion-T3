@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #FF69B4;
+    display: flex;
+}
+
+header img{
+    height: 120px;
+}
+
+header h1{
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+nav{
+    background-color: #252525;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 17rem;
+    margin-right: 100px;
+}
+  
+nav ul li:last-child {
+    margin-right: 0;
+}
+  
+nav ul li a:not(hover) {
+    text-decoration: none;
+    color: #fff;
+    transition: font-size 0.3s;
+}
+  
+nav ul li a:hover {
+    color: #FF69B4;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+    transition: font-size 0.3s;
+}
+
+main{
+    background-color: #fe97ca;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: 25rem;
+    padding: 20px;
+}
+
+main form h3{
+    margin: 5px;
+}
+
+.Pedido{
+    margin-top: 1rem;
+}
+
+.descuento{
+    margin-top: 1rem;
+}
+
+
+
+#calcular:hover{
+    font-size: 1.01em;
+    background-color: #f8add3;
+    border: #ff3499 1px solid;
+    color: #fff;
+    transition: font-size 0.2s;
+}
+
+#calcular:not(hover){
+    margin-top: 10px;
+    background-color: #FF69B4;
+    border-radius: 6px;
+    border: #ff3499 1px solid;
+    color: #fff;
+    transition: font-size 0.2s;
+}
